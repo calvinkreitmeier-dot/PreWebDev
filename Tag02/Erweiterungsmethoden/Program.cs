@@ -86,6 +86,10 @@ public static class Erweiterungsmethoden
     {
         return Convert.ToString(n, 16);
     }
+    public static int Power(this int n, int exponent)
+    {
+        return (int)Math.Pow(n, exponent);
+    }
     public static int RoundUp(this double d)
     {
         return (int)Math.Ceiling(d);
@@ -126,7 +130,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        string a = "In visions of the dark night I have dreamed of joy departed, But a waking dream of life and light Hath left me broken-hearted. Ah! what is not a dream by day To him whose eyes are cast On things around him with a ray Turned back upon the past? That holy dream -that holy dream, While all the world were chiding, Hath cheered me as a lovely beam A lonely spirit guiding. What though that light, thro' storm and night, So trembled from afar, What could there be more purely bright In Truth's day-star. (Edgar Allan Poe 1809-1849, US-amerikanischer Schriftsteller - A dream)";
-        Console.WriteLine(a.BITLCWerbung(7));
+        // string a = "In visions of the dark night I have dreamed of joy departed, But a waking dream of life and light Hath left me broken-hearted. Ah! what is not a dream by day To him whose eyes are cast On things around him with a ray Turned back upon the past? That holy dream -that holy dream, While all the world were chiding, Hath cheered me as a lovely beam A lonely spirit guiding. What though that light, thro' storm and night, So trembled from afar, What could there be more purely bright In Truth's day-star. (Edgar Allan Poe 1809-1849, US-amerikanischer Schriftsteller - A dream)";
+        // Console.WriteLine(a.BITLCWerbung(7));
+    int m= -47;
+    Console.WriteLine(m.Power(-3));
     }
 }
