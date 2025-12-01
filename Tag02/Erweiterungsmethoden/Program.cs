@@ -86,7 +86,7 @@ public static class Erweiterungsmethoden
     {
         return Convert.ToString(n, 16);
     }
-    public static int Power(this int n, int exponent)
+    public static int Power(this int n, int exponent = 2)
     {
         return (int)Math.Pow(n, exponent);
     }
