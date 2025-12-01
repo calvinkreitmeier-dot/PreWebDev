@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Tag02/">
+    <Project Path="Tag02/Erweiterungsmethoden/Erweiterungsmethoden.csproj" />
+  </Folder>
   <Project Path="Tag01/Tag01.csproj" />
 </Solution>
