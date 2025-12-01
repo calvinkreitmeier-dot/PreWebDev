@@ -5,23 +5,11 @@ public static class Erweiterungsmethoden
 {
     public static string Left (this string s, int count)
     {
-        StringBuilder result = new("");
-        char [] chars = s.ToCharArray();
-        for (int i = 0; i < count;i++)
-        {
-            result.Append(chars[i]);
-        }
-        return result.ToString();
+        return s[count..];
     }
     public static string Right (this string s, int count)
     {
-        StringBuilder result = new("");
-        char [] chars = s.ToCharArray();
-        for (int i = chars.Length-count; i < chars.Length;i++)
-        {
-            result.Append(chars[i]);
-        }
-        return result.ToString();
+        return s.Substring(s.Length-count,count);
     }
     public static bool IsEvenNumber (this int n)
     {
@@ -29,7 +17,7 @@ public static class Erweiterungsmethoden
     }
     public static bool IsPalindrome (this string s)
     {
-        char[] array = s.ToCharArray();
+        char[] array = s.ToLower().ToCharArray();
         return array == array.Reverse();
     }
     public static bool ContainsDuplicateChar(this string s)
@@ -84,12 +72,61 @@ public static class Erweiterungsmethoden
         }
         return returner.ToString();
     }
+    public static string ReverseString(this string s)
+    {
+        char[] array = s.ToCharArray();
+        Array.Reverse(array);
+        return new string(array);
+    }
+    public static string IntToBinaryString(this int n)
+    {
+        return Convert.ToString(n, 2);
+    }
+    public static string IntToHexString(this int n)
+    {
+        return Convert.ToString(n, 16);
+    }
+    public static int RoundUp(this double d)
+    {
+        return (int)Math.Ceiling(d);
+    }
+    public static int RoundDown(this double d)
+    {
+        return (int)Math.Floor(d);
+    }
+    public static double RoundUpAt(this double d, double roundAtThis)
+    {
+        if (d - Math.Floor(d) < roundAtThis)
+        {
+            return Math.Floor(d);
+        }
+        else
+        {
+            return Math.Ceiling(d);
+        }
+    }
+    public static string BITLCWerbung(this string s, int absatz)
+    {
+        StringBuilder returner = new();
+        string[] words = s.Split(' ');
+        int counter = 1;
+        foreach (string word in words)
+        {
+            returner.Append(word + " ");
+            if (counter % absatz == 0)
+            {
+                returner.Append("BITLC Dortmund ");
+            }
+            counter++;
+        }
+        return returner.ToString();
+    }
 }
 class Program
 {
     static void Main(string[] args)
     {
-        char[] chars = { 'e', 'r', 'l' };
-        Console.WriteLine($"Hello, World!".CapitalizeFirstLetterAndLetterAfterChar(chars));
+        string a = "In visions of the dark night I have dreamed of joy departed, But a waking dream of life and light Hath left me broken-hearted. Ah! what is not a dream by day To him whose eyes are cast On things around him with a ray Turned back upon the past? That holy dream -that holy dream, While all the world were chiding, Hath cheered me as a lovely beam A lonely spirit guiding. What though that light, thro' storm and night, So trembled from afar, What could there be more purely bright In Truth's day-star. (Edgar Allan Poe 1809-1849, US-amerikanischer Schriftsteller - A dream)";
+        Console.WriteLine(a.BITLCWerbung(7));
     }
 }
