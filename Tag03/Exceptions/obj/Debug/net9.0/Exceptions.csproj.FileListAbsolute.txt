@@ -1,0 +1,15 @@
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\bin\Debug\net9.0\Exceptions.exe
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\bin\Debug\net9.0\Exceptions.deps.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\bin\Debug\net9.0\Exceptions.runtimeconfig.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\bin\Debug\net9.0\Exceptions.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\bin\Debug\net9.0\Exceptions.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.AssemblyInfoInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.AssemblyInfo.cs
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.sourcelink.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\refint\Exceptions.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\Exceptions.genruntimeconfig.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag03\Exceptions\obj\Debug\net9.0\ref\Exceptions.dll
