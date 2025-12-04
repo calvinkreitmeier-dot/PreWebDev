@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Baumarkt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce10a7ae0801f5644996868ba7fa58d1c8cc2a30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32bef771cdc049cf52da9153a02a05c8e460cc0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Baumarkt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Baumarkt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

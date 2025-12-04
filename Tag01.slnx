@@ -12,6 +12,7 @@
   </Folder>
   <Folder Name="/Tag05/">
     <Project Path="Tag05/Kartendeck/Kartendeck.csproj" />
+    <Project Path="Tag05/Questboard/Questboard.csproj" />
   </Folder>
   <Project Path="Tag01/Tag01.csproj" />
 </Solution>

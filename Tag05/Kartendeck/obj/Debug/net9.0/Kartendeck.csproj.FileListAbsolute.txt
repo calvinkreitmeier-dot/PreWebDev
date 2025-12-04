@@ -1,0 +1,15 @@
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\bin\Debug\net9.0\Kartendeck.exe
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\bin\Debug\net9.0\Kartendeck.deps.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\bin\Debug\net9.0\Kartendeck.runtimeconfig.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\bin\Debug\net9.0\Kartendeck.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\bin\Debug\net9.0\Kartendeck.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.AssemblyInfoInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.AssemblyInfo.cs
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.csproj.CoreCompileInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.sourcelink.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\refint\Kartendeck.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\Kartendeck.genruntimeconfig.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag05\Kartendeck\obj\Debug\net9.0\ref\Kartendeck.dll

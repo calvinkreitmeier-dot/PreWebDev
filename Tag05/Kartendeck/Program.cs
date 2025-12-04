@@ -12,7 +12,8 @@ public class Spielkarte (Farbe farbe, Wert wert)
 }
 public class Kartendeck
 {
-    Stack<Spielkarte> deck = new();
+    public Stack<Spielkarte> deck = new();
+    public Kartendeck(){}
     public Kartendeck(Farbe f)
     {
         Deckbuilder(f);
@@ -25,10 +26,18 @@ public class Kartendeck
             deck.Push(new Spielkarte(k, w)); 
         } 
     }
+    public static void WriteDeck(Kartendeck k)
+    {
+        foreach (Spielkarte spielkarte in k.deck)
+        {
+            System.Console.WriteLine(spielkarte.GetKarte());
+        }
+    }
     public static Stack<Spielkarte> Zusammenfassen(Stack<Spielkarte> deck1, Stack<Spielkarte> deck2)
     {
         Stack<Spielkarte> newDeck = new();
-        for (int i = 0; i < deck1.Count; i++)
+        int zähler = deck1.Count;
+        for (int i = 0; i < zähler; i++)
         {
             newDeck.Push(deck1.Pop());
             newDeck.Push(deck2.Pop());
@@ -37,11 +46,11 @@ public class Kartendeck
     }
     public static Stack<Spielkarte>[] In4Teilen(Stack<Spielkarte> deck)
     {
-        Stack<Spielkarte>[] teile = [];
+        Stack<Spielkarte>[] teile = new Stack<Spielkarte>[4];
         for (int i = 0; i < 4; i++)
         {
             Stack<Spielkarte> zwischenspeicher = new();
-            for (int j = 0; j < deck.Count / 4; j++)
+            for (int j = 0; j < 4; j++)
             {
                 zwischenspeicher.Push(deck.Pop());
             }
@@ -51,15 +60,15 @@ public class Kartendeck
     }
     public static Stack<Spielkarte> KartenLegen(Stack<Spielkarte>[] deck)
     {
-        for (int i = 0; i < deck[0].Count; i++)
+        for (int i = 0; i < 4; i++)
         {
             deck[2].Push(deck[0].Pop());
         }
-        for (int i = 0; i < deck[1].Count; i++)
+        for (int i = 0; i < 4; i++)
         {
             deck[3].Push(deck[1].Pop());
         }
-        for (int i = 0; i < deck[2].Count; i++)
+        for (int i = 0; i < 8; i++)
         {
             deck[3].Push(deck[2].Pop());
         }
@@ -84,6 +93,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Kartendeck herzDeck = new(Farbe.Herz), pikDeck = new(Farbe.Karo);
+        Kartendeck herzDeck = new(Farbe.Herz), pikDeck = new(Farbe.Pik);
+        // Kartendeck.WriteDeck(herzDeck);
+        // Kartendeck.WriteDeck(pikDeck);
+        Kartendeck Hauptdeck = new();
+        Hauptdeck.deck = Kartendeck.Zusammenfassen(herzDeck.deck, pikDeck.deck);
+        // Kartendeck.WriteDeck(Hauptdeck);
+        Hauptdeck.deck = Kartendeck.KartenLegen(Kartendeck.In4Teilen(Hauptdeck.deck));
+        Kartendeck.WriteDeck(Hauptdeck);
     }
 }
