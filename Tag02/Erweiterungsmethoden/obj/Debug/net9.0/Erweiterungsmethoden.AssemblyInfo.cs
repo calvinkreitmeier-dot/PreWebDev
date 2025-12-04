@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Erweiterungsmethoden")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86340132eed24e17046603d2a157c66c5d717e90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce10a7ae0801f5644996868ba7fa58d1c8cc2a30")]
 [assembly: System.Reflection.AssemblyProductAttribute("Erweiterungsmethoden")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Erweiterungsmethoden")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

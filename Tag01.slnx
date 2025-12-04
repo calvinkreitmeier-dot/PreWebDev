@@ -5,5 +5,13 @@
   <Folder Name="/Tag03/">
     <Project Path="Tag03/Exceptions/Exceptions.csproj" />
   </Folder>
+  <Folder Name="/Tag04/">
+    <Project Path="Tag04/Baumarkt/Baumarkt.csproj" />
+    <Project Path="Tag04/Collections/Collections.csproj" />
+    <Project Path="Tag04/Hotel/Hotel.csproj" />
+  </Folder>
+  <Folder Name="/Tag05/">
+    <Project Path="Tag05/Kartendeck/Kartendeck.csproj" />
+  </Folder>
   <Project Path="Tag01/Tag01.csproj" />
 </Solution>
