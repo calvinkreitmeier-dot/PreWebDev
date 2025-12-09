@@ -14,5 +14,14 @@
     <Project Path="Tag05/Kartendeck/Kartendeck.csproj" />
     <Project Path="Tag05/Questboard/Questboard.csproj" />
   </Folder>
+  <Folder Name="/Tag08/">
+    <Project Path="Tag08/ArrayFilter/ArrayFilter.csproj" />
+    <Project Path="Tag08/Mitarbeiterfilter/Mitarbeiterfilter.csproj" />
+    <Project Path="Tag08/Taschenrechner/Taschenrechner.csproj" />
+  </Folder>
+  <Folder Name="/Tag09/">
+    <Project Path="Tag09/Linq Heroes/Linq Heroes.csproj" />
+    <Project Path="Tag09/LinqÜbungen/LinqÜbungen.csproj" />
+  </Folder>
   <Project Path="Tag01/Tag01.csproj" />
 </Solution>

@@ -1,6 +1,6 @@
 ﻿namespace Kartendeck;
 public enum Farbe {Herz,Karo,Pik,Kreuz}
-public enum Wert {Ass,Zwei,Drei,Vier,Fünf,Sechs,Sieben,Acht,Neun,Zehn,Bube,Dame,König}
+public enum Wert {Sieben,Acht,Neun,Zehn,Bube,Dame,König,Ass}
 public class Spielkarte (Farbe farbe, Wert wert)
 {
     private readonly Farbe _kartenfarbe = farbe;

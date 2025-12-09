@@ -1,0 +1,15 @@
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\bin\Debug\net9.0\Mitarbeiterfilter.exe
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\bin\Debug\net9.0\Mitarbeiterfilter.deps.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\bin\Debug\net9.0\Mitarbeiterfilter.runtimeconfig.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\bin\Debug\net9.0\Mitarbeiterfilter.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\bin\Debug\net9.0\Mitarbeiterfilter.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.AssemblyInfoInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.AssemblyInfo.cs
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.csproj.CoreCompileInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.sourcelink.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\refint\Mitarbeiterfilter.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\Mitarbeiterfilter.genruntimeconfig.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag08\Mitarbeiterfilter\obj\Debug\net9.0\ref\Mitarbeiterfilter.dll

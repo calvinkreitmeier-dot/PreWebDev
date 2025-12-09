@@ -1,0 +1,15 @@
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\bin\Debug\net10.0\LinqÜbungen.exe
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\bin\Debug\net10.0\LinqÜbungen.deps.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\bin\Debug\net10.0\LinqÜbungen.runtimeconfig.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\bin\Debug\net10.0\LinqÜbungen.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\bin\Debug\net10.0\LinqÜbungen.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.AssemblyInfoInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.AssemblyInfo.cs
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.csproj.CoreCompileInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.sourcelink.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\refint\LinqÜbungen.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\LinqÜbungen.genruntimeconfig.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag09\LinqÜbungen\obj\Debug\net10.0\ref\LinqÜbungen.dll
