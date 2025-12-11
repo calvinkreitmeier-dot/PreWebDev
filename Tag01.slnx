@@ -23,5 +23,9 @@
     <Project Path="Tag09/Linq Heroes/Linq Heroes.csproj" />
     <Project Path="Tag09/LinqÜbungen/LinqÜbungen.csproj" />
   </Folder>
+  <Folder Name="/Tag10/">
+    <Project Path="Tag10/Linq2/Linq2.csproj" />
+    <Project Path="Tag10/Warenkorb/Warenkorb.csproj" />
+  </Folder>
   <Project Path="Tag01/Tag01.csproj" />
 </Solution>

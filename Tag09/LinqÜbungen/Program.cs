@@ -2,6 +2,7 @@
 
 class Program
 {
+
     public static void Aufgabe1()
     {
         int[] numbers = [5,4,1,3,9,8,6,7,2,0,22,12,16,18,11,19,13];
@@ -9,7 +10,7 @@ class Program
         var evennumbers = numbers.Where(number=> number%2==0).Select(number => number);
         var numbersunevenunder10 = numbers.Where(number => number<10 && number%2==1);
         var fromsixthelement = numbers.Skip(5).Take(6);
-        var divide3and2 = numbers.Where(number => number % 3 == 0 && number % 2 == 0).Select(number => number);
+        var divide3and2 = numbers.Where(number => number % 3 == 0 || number % 2 == 0).Select(number => number);
         foreach (var no in numbersmaller7){System.Console.Write(no + " ");}
         System.Console.WriteLine();
         foreach (var no in evennumbers){System.Console.Write(no + " ");}
@@ -45,13 +46,70 @@ class Program
     {
         int[] numbers = [5,4,1,3,9,8,6,7,2,0,22,12,16,18,11,19,13];
         var first5 = numbers.Take(5);
-        var last5 = numbers.Skip(numbers.Length-5).Take(5);
+        var last5 = numbers.Skip(numbers.Length-5);
         var except3 = numbers.Skip(3).Take(numbers.Length-6);
-        var till22 = numbers.TakeWhile((number, no) => number<22);
-        var from12 = numbers.SkipWhile((number, no) => number !=12);
+        var till22 = numbers.TakeWhile((number, no) => number!=22);
+        var from12 = numbers.SkipWhile((number, no) => number !=12).Skip(1);
+
+        foreach (var no in first5){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in last5){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in except3){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in till22){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in from12){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        for (int i = 0; i< numbers.Length-1; i++)
+        {
+            if( i%5 == 0){System.Console.WriteLine();}
+            System.Console.Write(numbers[i] + " ");
+        }
+    }
+    public static void Aufgabe4()
+    {
+        int[] numbers = [5,4,1,3,9,8,6,7,2,0,22,12,16,18,11,19,13];
+        var ascending = numbers.OrderBy(number => number).Select(number => number);
+        var decsending = numbers.OrderByDescending(number => number).Select(number=>number);
+        var evenascending = numbers.Where(number => number  % 2 == 0).OrderBy(number => number).Select(number=>number);
+        var decsending5to11 = numbers.Where(number => number <= 11 && number >= 5).OrderByDescending(number => number).Select(number=>number);    
+        foreach (var no in ascending){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in decsending){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in evenascending){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in decsending5to11){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+    }
+    public static void Aufgabe5()
+    {
+        string[] numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen"];
+        var ascending = numbers.OrderBy(number=>number.Length).Select(number=>number);
+        var sortbyalpabetascending = numbers.OrderBy(number => number.Length).ThenBy(number=>number).Select(number=> number);
+        var reverse = numbers.Reverse().Select(number=> number);
+        var lettersort = numbers.OrderBy(number => number[0]).ThenByDescending(number=>number[^1]);
+        foreach (var no in ascending){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in sortbyalpabetascending){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in reverse){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+        foreach (var no in lettersort){System.Console.Write(no + " ");}
+        System.Console.WriteLine();
+
     }
     static void Main(string[] args)
     {
         Aufgabe1();
+        System.Console.WriteLine();
+        Aufgabe2();
+        System.Console.WriteLine();
+        Aufgabe3();
+        System.Console.WriteLine();
+        Aufgabe4();
+        System.Console.WriteLine();
+        Aufgabe5();
     }
 }
