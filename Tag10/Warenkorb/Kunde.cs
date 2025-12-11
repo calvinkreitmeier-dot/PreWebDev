@@ -63,7 +63,7 @@
         {
             return $"ProdNr: {ProduktNr}, Anzahl: {Anzahl}, Monat: {Monat}, Versand: {Versendet}";
         }
-        public override bool Equals(object obj)
+        public override bool Equals(object? obj)
         {
             if (!(obj is Bestellung))
                 return false;
