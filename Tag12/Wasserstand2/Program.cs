@@ -79,26 +79,15 @@ class Fluss (string name)
     }
     private void CheckFüllstand()
     {
-        if (_füllstand < 250)
+        int eventId = _füllstand switch
         {
-            Füllstand!.Invoke(this, new Füllstandevent(1));
-        }
-        else if (_füllstand > 8200)
-        {
-            Füllstand!.Invoke(this, new Füllstandevent(4));
-        }
-        else if (_füllstand > 8000)
-        {
-            Füllstand!.Invoke(this, new Füllstandevent(2));
-        }
-        else if (_füllstand < 3000)
-        {
-            Füllstand!.Invoke(this, new Füllstandevent(5));
-        }
-        else
-        {
-            Füllstand!.Invoke(this, new Füllstandevent(3));
-        }
+            < 250 => 1,
+            < 3000 => 5,
+            <= 8000 => 3,
+            <= 8200 => 2,
+            _ => 4
+        };
+        Füllstand!.Invoke(this, new Füllstandevent(eventId));
     }
 }
 class Program
