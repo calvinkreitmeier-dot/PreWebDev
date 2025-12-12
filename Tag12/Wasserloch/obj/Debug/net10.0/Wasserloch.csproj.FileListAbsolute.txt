@@ -1,0 +1,15 @@
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\bin\Debug\net10.0\Wasserloch.exe
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\bin\Debug\net10.0\Wasserloch.deps.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\bin\Debug\net10.0\Wasserloch.runtimeconfig.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\bin\Debug\net10.0\Wasserloch.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\bin\Debug\net10.0\Wasserloch.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.AssemblyInfoInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.AssemblyInfo.cs
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.csproj.CoreCompileInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.sourcelink.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\refint\Wasserloch.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\Wasserloch.genruntimeconfig.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\tag12\Wasserloch\obj\Debug\net10.0\ref\Wasserloch.dll

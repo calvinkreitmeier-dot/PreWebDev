@@ -1,0 +1,15 @@
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.AssemblyInfoInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.AssemblyInfo.cs
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.csproj.CoreCompileInputs.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.sourcelink.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\bin\Debug\net10.0\Warpkern.exe
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\bin\Debug\net10.0\Warpkern.deps.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\bin\Debug\net10.0\Warpkern.runtimeconfig.json
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\bin\Debug\net10.0\Warpkern.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\bin\Debug\net10.0\Warpkern.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\refint\Warpkern.dll
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.pdb
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\Warpkern.genruntimeconfig.cache
+C:\Users\Calvin\Documents\Visual Studio\PreWebDev\Tag11\Warpkern\obj\Debug\net10.0\ref\Warpkern.dll

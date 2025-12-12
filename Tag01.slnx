@@ -27,5 +27,13 @@
     <Project Path="Tag10/Linq2/Linq2.csproj" />
     <Project Path="Tag10/Warenkorb/Warenkorb.csproj" />
   </Folder>
+  <Folder Name="/Tag11/">
+    <Project Path="Tag11/Warpkern/Warpkern.csproj" />
+  </Folder>
+  <Folder Name="/Tag12/">
+    <Project Path="Tag12/Wasserloch/Wasserloch.csproj" />
+    <Project Path="Tag12/Wasserstand1/Wasserstand1.csproj" />
+    <Project Path="Tag12/Wasserstand2/Wasserstand2.csproj" />
+  </Folder>
   <Project Path="Tag01/Tag01.csproj" />
 </Solution>
